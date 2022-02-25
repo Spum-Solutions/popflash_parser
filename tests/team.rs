@@ -1,5 +1,4 @@
 extern crate popflash_parser;
-
 #[cfg(test)]
 
 mod _get_rounds_won {
@@ -8,6 +7,6 @@ mod _get_rounds_won {
 
     #[tokio::test]
     async fn example_game() {
-        let body = utility::get_body_from_url(EXAMPLE_GAME_URL).await;
+        let _body = utility::get_body_from_url(EXAMPLE_GAME_URL).await;
     }
 }

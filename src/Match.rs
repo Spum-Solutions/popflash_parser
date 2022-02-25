@@ -26,8 +26,8 @@ impl Match {
 
     fn get_teams(document: &Document) -> Vec<Team> {
         let mut teams: Vec<Team> = vec![];
-        let team1 = Team::new(0, &document);
-        let team2 = Team::new(1, &document);
+        let team1 = Team::new(0, document);
+        let team2 = Team::new(1, document);
 
         teams.push(team1);
         teams.push(team2);

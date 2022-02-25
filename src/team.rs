@@ -1,12 +1,6 @@
-use std::ascii::AsciiExt;
-use std::fmt::Pointer;
-
 use select::document::Document;
-use select::node::Node;
-use select::predicate::{Attr, Class, Name, Predicate};
-
+use select::predicate::Class;
 use serde_derive::{Deserialize, Serialize};
-use serde_json::Result;
 
 use super::player_stats::PlayerStats;
 

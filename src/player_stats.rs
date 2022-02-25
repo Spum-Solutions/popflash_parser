@@ -63,7 +63,8 @@ impl PlayerStats {
 
         // TODO: has to be a better way to do this
         // perhaps macro?
-        let stats = PlayerStats {
+        
+        PlayerStats {
             name: trimmed_player_name,
             kills: self::PlayerStats::parse_td_tags(&final_lines[0])
                 .parse()
@@ -96,8 +97,7 @@ impl PlayerStats {
                 .parse()
                 .unwrap(),
             is_supporter: _is_supporter,
-        };
-        stats
+        }
     }
 
     fn parse_td_tags(text: &str) -> String {

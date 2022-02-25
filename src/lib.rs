@@ -1,11 +1,12 @@
-pub const EXAMPLE_GAME_URL: &'static str = "https://popflash.site/match/1281644";
-pub const EXAMPLE_GAME_ID: &'static str = "1281644";
+pub const EXAMPLE_GAME_URL: &str = "https://popflash.site/match/1281644";
+pub const EXAMPLE_GAME_ID: &str = "1281644";
 
 pub mod player_stats;
 pub mod team;
 pub mod utility;
 
 // has to have capital to not conflict with rust keywords
+#[warn(non_snake_case)]
 pub mod Match;
 
 pub async fn match_from_id(match_id: &str) -> Match::Match {

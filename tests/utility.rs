@@ -1,7 +1,4 @@
 extern crate popflash_parser;
-use reqwest::Error;
-use select::document::Document;
-use select::predicate::{Attr, Class, Name, Predicate};
 
 #[cfg(test)]
 mod _get_body_from_id {
@@ -9,7 +6,7 @@ mod _get_body_from_id {
     #[tokio::test]
     async fn invalid_url() {
         let response = utility::get_body_from_url("invalid url").await;
-        assert_eq!(response.is_err(), true);
+        assert!(response.is_err());
     }
 
     #[tokio::test]

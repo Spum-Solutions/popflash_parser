@@ -1,4 +1,4 @@
-use reqwest::{get, Error};
+use reqwest::{Error};
 use select::document::Document;
 
 /// This makes use of the function `get_body_from_url` function in the same module by converting the id to a valid url, this is just for quality of life reasons
