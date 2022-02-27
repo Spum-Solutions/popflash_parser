@@ -40,5 +40,4 @@ async fn main() {
 ```
 
 ## todos
-
-## 
+see the `Issues` page
