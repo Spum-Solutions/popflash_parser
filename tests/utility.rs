@@ -24,8 +24,10 @@ async fn full_test() {
         .unwrap();
 
     // NOTE: this was awful on my part but we can fix it
-    let game = popflash_parser::Match::Match::new(popflash_parser::EXAMPLE_GAME_ID, &body);
-    println!("{:#?}", game);
+    let game = popflash_parser::Match::Match::new(&body);
+    let json_string = serde_json::to_string(&game).unwrap();
+    let json_json = serde_json::Value::from(json_string);
+
     assert!(true == true);
 }
 
