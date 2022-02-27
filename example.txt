@@ -1,0 +1,1977 @@
+<html lang="en-US"><script async="" src="example_files/analytics.js"></script><script>(function(){class RuffleMimeType{constructor(a,b,c){this.type=a,this.description=b,this.suffixes=c}}class RuffleMimeTypeArray{constructor(a){this.__mimetypes=[],this.__named_mimetypes={};for(let b of a)this.install(b)}install(a){let b=this.__mimetypes.length;this.__mimetypes.push(a),this.__named_mimetypes[a.type]=a,this[a.type]=a,this[b]=a}item(a){return this.__mimetypes[a]}namedItem(a){return this.__named_mimetypes[a]}get length(){return this.__mimetypes.length}}class RufflePlugin extends RuffleMimeTypeArray{constructor(a,b,c,d){super(d),this.name=a,this.description=b,this.filename=c}install(a){a.enabledPlugin||(a.enabledPlugin=this),super.install(a)}}class RufflePluginArray{constructor(a){this.__plugins=[],this.__named_plugins={};for(let b of a)this.install(b)}install(a){let b=this.__plugins.length;this.__plugins.push(a),this.__named_plugins[a.name]=a,this[a.name]=a,this[b]=a}item(a){return this.__plugins[a]}namedItem(a){return this.__named_plugins[a]}refresh(){}get length(){return this.__plugins.length}}const FLASH_PLUGIN=new RufflePlugin("Shockwave Flash","Shockwave Flash 32.0 r0","ruffle.js",[new RuffleMimeType("application/futuresplash","Shockwave Flash","spl"),new RuffleMimeType("application/x-shockwave-flash","Shockwave Flash","swf"),new RuffleMimeType("application/x-shockwave-flash2-preview","Shockwave Flash","swf"),new RuffleMimeType("application/vnd.adobe.flash-movie","Shockwave Flash","swf")]);function install_plugin(a){navigator.plugins.install||Object.defineProperty(navigator,"plugins",{value:new RufflePluginArray(navigator.plugins),writable:!1}),navigator.plugins.install(a),0<a.length&&!navigator.mimeTypes.install&&Object.defineProperty(navigator,"mimeTypes",{value:new RuffleMimeTypeArray(navigator.mimeTypes),writable:!1});for(var b=0;b<a.length;b+=1)navigator.mimeTypes.install(a[b])}install_plugin(FLASH_PLUGIN);})();</script><script src="example_files/ruffle.js"></script><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+<title>Match 1281644 | PopFlash</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+<meta http-equiv="Content-Language" content="en">
+
+<meta name="google" content="notranslate">
+<meta name="description" content="PopFlash match 1281644. The easiest place to setup a 5v5 CS:GO match.">
+<style type="text/css">
+
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fABc4AMP6lbBP.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* greek-ext */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fCBc4AMP6lbBP.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+  }
+  /* greek */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fBxc4AMP6lbBP.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fCxc4AMP6lbBP.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fChc4AMP6lbBP.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* greek-ext */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+  }
+  /* greek */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fCRc4AMP6lbBP.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fABc4AMP6lbBP.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* greek-ext */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fCBc4AMP6lbBP.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+  }
+  /* greek */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fBxc4AMP6lbBP.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fCxc4AMP6lbBP.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fChc4AMP6lbBP.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* greek-ext */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+  }
+  /* greek */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-33mZGCkYb9lecyVC4A.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-33mZGCAYb9lecyVC4A.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-33mZGCgYb9lecyVC4A.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-33mZGCcYb9lecyVC4A.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-33mZGCsYb9lecyVC4A.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-33mZGCoYb9lecyVC4A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-33mZGCQYb9lecyU.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-19-7DQk6YvNkeg.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-19a7DQk6YvNkeg.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-1967DQk6YvNkeg.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-19G7DQk6YvNkeg.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-1927DQk6YvNkeg.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-19y7DQk6YvNkeg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQk6YvM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCkYb9lecyVC4A.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCAYb9lecyVC4A.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCgYb9lecyVC4A.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCcYb9lecyVC4A.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCsYb9lecyVC4A.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCoYb9lecyVC4A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCQYb9lecyU.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+    html, body {
+      background: #FFF;
+      color: #3c3d4f;
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    a {
+      color: #3c3d4f;
+    }
+
+    pre {
+      white-space: pre-wrap;       /* CSS 3 */
+      white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+      white-space: -pre-wrap;      /* Opera 4-6 */
+      white-space: -o-pre-wrap;    /* Opera 7 */
+      word-wrap: break-word;       /* Internet Explorer 5.5+ */
+      max-width: 100%;
+      padding: 0 20px;
+    }
+
+    #container {
+      border-top: 2px solid #e3e3e3;
+      min-height: 300px;
+    }
+
+    #page-container {
+      border: 1px solid #E2E2E2;
+      width: 960px;
+      margin: 40px auto;
+      min-height: 275px;
+      position: relative;
+      z-index: 1;
+      background: #FFF;
+      padding: 30px;
+    }
+
+    #background-overlay {
+      position: absolute;
+      top: 85px;
+      left: 0;
+      width: 100%;
+      min-height: 300px;
+      background: #EEE;
+      -webkit-box-shadow: 0 1px 0 0 #e2e2e2, inset 0 1px 0 0 rgba(1,1,1,.05);
+      box-shadow: 0 1px 0 0 #e2e2e2, inset 0 1px 0 0 rgba(1,1,1,.05);
+      background: url('/pattern.png');
+      border-top: 1px solid #e7e7e7;
+    }
+
+    .content-box-container {
+      margin: 0;
+      padding-bottom: 30px;
+    }
+
+    .content-box {
+      border: 1px solid #E2E2E2;
+      padding: 30px 35px;
+      background: #F7F7F7;
+      min-height: 205px;
+      font-size: 14px;
+    }
+
+    .content-box-first .content-box-container {
+      margin: 0 15px 0 0;
+    }
+
+    .content-box-last .content-box-container {
+      margin: 0 0 0 15px;
+    }
+
+    .content-box-1-2 {
+      float:left;
+      width: 50%;
+    }
+
+    .content-box-1-3 {
+      float: left;
+      width: 40%;
+    }
+
+    .content-box-2-3 {
+      float: left;
+      width: 60%;
+    }
+
+    h2 {
+      font-family: 'Roboto Condensed', sans-serif;
+      color: #e83c2f;
+      margin: 0 0 30px 0;
+      padding: 5px;
+      border-bottom: 1px solid #E7E7E7;
+    }
+
+    h3 {
+      font-family: 'Roboto Condensed', sans-serif;
+      margin: 0 0 40px 0;
+      font-weight: 400;
+      font-size: 24px;
+    }
+
+    h4 {
+      font-family: 'Roboto Condensed', sans-serif;
+      margin: 0 0 10px 0;
+      font-weight: 400;
+      font-size: 18px;
+    }
+
+    h3 span, h4 span {
+      color: #e83c2f;
+    }
+
+    table {
+      color: #FFF;
+      border-collapse: collapse;
+      border-spacing: 0;
+      font-size: 14px;
+      outline: 1px solid #333442;
+      margin: 0 auto;
+      background-color: #444557;
+    }
+
+    td {
+      min-width: 15px;
+      text-align: center;
+      padding: 10px;
+      border: 1px solid #505166;
+    }
+
+    td.align-left {
+      text-align: left;
+    }
+
+    td.name {
+      width: 100px;
+      max-width: 120px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      text-align: left;
+      color: #fbfe03;
+    }
+
+    tr.bold {
+      font-weight: bold;
+    }
+
+    td a {
+      color: #fbfe03;
+      text-decoration: none;
+      font-weight: lighter;
+    }
+
+
+    .clear {
+      clear: both;
+    }
+
+    .aligncenter div, .aligncenter img, .amzn-native-container, .amzn-native-products-list {
+      margin: 0 auto !important;
+      text-align: center !important;
+    }
+
+    /* *********************************************************************************************************************
+    One% CSS Grid - 12 Columns Fluid CSS Grid System
+
+    Why One% ? Let’s count ...
+      we have 12 columns (magic number divided by 2, 3, 4, 6)
+
+      for 12 columns we need 11 margins
+
+      so if we count margin 3%, then 3% * 11 margins = 33%
+
+      and if we count width of 1 column 5.5%, than 5.5% * 12 columns = 66%
+
+      in the end we have 33% + 66% = 99% aaand ???
+
+      1% is still here so that's the name - One%
+
+    2 starting options ? Let’s count a bit more ...
+      1200px - perfectly fits 1280 screens
+        12 columns
+        margin 3% / 36px (full-width)
+        col1 5.5% / 66px (full-width)
+
+      1000px - perfectly fits 1024 screens
+        12 columns
+        margin 3% / 30px (full-width)
+        col1 5.5% / 55px (full-width)
+    */
+
+    /* *********************************************************************************************************************
+    * Main container for all
+    */
+    .onepcssgrid-1000, .onepcssgrid-1200 {
+      margin: 0 auto;
+      padding: 0 0 0 1%; /* THAT'S THE NAME ;) */
+    }
+
+    .onepcssgrid-1200 {
+      max-width: 1220px;
+    }
+
+    .onepcssgrid-1000 {
+      max-width: 1020px;
+    }
+
+    .onerow {
+      clear: both;
+      padding: 0 10px;
+    }
+
+    /* *********************************************************************************************************************
+    * Common columns definitions
+    */
+    .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12 {
+    float: left;
+    margin: 0 3% 0 0;
+    }
+
+    .col1.last, .col2.last, .col3.last, .col4.last, .col5.last, .col6.last, .col7.last, .col8.last, .col9.last, .col10.last, .col11.last, .col12 {
+    margin: 0;
+    }
+
+    .col1 { width: 5.5%; }
+    .col2 { width: 14%; }
+    .col3 { width: 22.5%; }
+    .col4 { width: 31%; }
+    .col5 { width: 39.5%; }
+    .col6 { width: 48%; }
+    .col7 { width: 56.5%; }
+    .col8 { width: 65%; }
+    .col9 { width: 73.5%; }
+    .col10 { width: 82%; }
+    .col11 { width: 90.5%; }
+    .col12 { width: 99%; margin: 0; }
+
+    .col1 img, .col2 img, .col3 img, .col4 img, .col5 img, .col6 img, .col7 img, .col8 img, .col9 img, .col10 img, .col11 img, .col12 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+
+
+
+
+
+    /* *********************************************************************************************************************
+    * Disable padding left/right 10px if I'm 1024 or gibber - correct percentage math
+    */
+    @media all and (min-width: 1024px) {
+    .onepcssgrid-1000 {
+      max-width: 1000px;
+    }
+
+    .onepcssgrid-1000 .onerow {
+      padding: 0;
+    }
+    }
+
+
+
+
+
+    /* *********************************************************************************************************************
+    * Small devices
+    */
+    @media all and (max-width: 768px) {
+    .onerow {
+    }
+
+    .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11 {
+      float: none;
+      width: 99%;
+    }
+    }
+  </style>
+<script type="text/javascript" src="example_files/jquery.js"></script>
+
+</head>
+<body class="loggedin"> 
+<style type="text/css">
+    header {
+      background: #FFF;
+      min-height: 85px;
+    }
+  
+    #header-container {
+      width: 980px;
+      margin: 0 auto;
+      position: relative;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+  
+    header .navigation a {
+      display: inline-block;
+      color: #3c3d4d;
+      padding: 0 10px;
+      line-height: 85px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 400;
+      position: relative;
+    }
+  
+    header .navigation a.active {
+      color: #e83c2f;
+    }
+  
+    header .navigation a.closed:after {
+      content: "CLOSED";
+      color: #e83c2f;
+      position: absolute;
+      top: 15px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      opacity: .6;
+      font-size: .8em;
+    }
+  
+    header .navigation a.new:after {
+      content: "NEW!";
+      color: #08c;
+      position: absolute;
+      top: 15px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      opacity: .6;
+      font-size: .8em;
+    }
+  
+    header .navigation a.new:hover:after, header .navigation a.closed:hover:after {
+      opacity: 1;
+    }
+  
+    header .navigation a.new:active:after, header .navigation a.closed:active:after {
+      display: none;
+    }
+  
+    header .logo {
+      padding-left: 20px;
+      padding-right: 50px;
+      border-right: 1px solid #e7e7e7;
+      float: left;
+      height: 85px;
+      line-height: 85px;
+    }
+  
+    header .navigation {
+      padding-left: 50px;
+      float: left;
+    }
+  
+    header .profile {
+      float: right;
+      height: 85px;
+      line-height: 85px;
+      font-size: 14px;
+      font-family: 'Roboto', sans-serif;
+      margin-top: 15px;
+    }
+  
+    .loggedin header .profile {
+      margin-top: 0;
+    }
+  
+    header .logo a {
+      text-decoration: none;
+      font-size: 1.7em;
+      color: #e83c2f; /* red */
+    }
+  
+    header .logo .flash {
+      color: #3c3d4d;
+      font-weight: 700;
+    }
+  
+    header .logo .site {
+      color: #b0b0b0;
+    }
+  
+    header .profile .overlay-container {
+      display: none;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 165px;
+      background: #FFF;
+      border: 1px solid #E3E3E3;
+      z-index: 99;
+      padding: 15px;
+      -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,.1);
+      box-shadow: 1px 1px 1px 0px rgba(0,0,0,.1);
+    }
+  
+    header .profile:hover .overlay-container {
+      display: block;
+    }
+  
+    header .profile .overlay-container .name {
+      height: 30px;
+      line-height: 30px;
+      display: inline-block;
+      text-align: right;
+      max-width: 120px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  
+    header .profile .overlay-container ul {
+      padding: 0;
+      margin: 0;
+    }
+  
+    header .profile .overlay-container ul li {
+      list-style-type: none;
+      border-bottom: 1px solid #E3E3E3;
+      height: 30px;
+      line-height: 30px;
+      color: #9e9e9e;
+      font-size: 12px;
+    }
+  
+    header .profile .overlay-container ul li a {
+      color: #9e9e9e;
+      text-decoration: none;
+      font-size: 12px;
+    }
+  
+    header .profile .name img {
+      vertical-align: middle;
+      display: inline-block;
+    }
+  
+    header .profile .name span {
+      color: #e83c2f;
+    }
+  </style>
+<header>
+<div id="header-container">
+<div class="logo">
+<a href="https://popflash.site/">POP<span class="flash">FLASH.</span><span class="site">SITE</span></a>
+</div>
+<div class="navigation">
+<a href="https://popflash.site/scrim/new" class="">SCRIM</a>
+<a href="https://popflash.site/match/es" class="active">MATCHES</a>
+
+<a href="https://popflash.site/blog" class="">BLOG</a>
+<a href="https://popflash.site/support">SUPPORT</a>
+<a href="https://popflash.site/faq">FAQ</a>
+</div>
+<div class="profile">
+<div class="name">
+<span>nectarine_consumer ▾</span>
+</div>
+<div class="overlay-container">
+<div style="max-height: 60px; overflow: hidden;">
+<img src="example_files/97f57b58d639bf7e7f0de30ba44f013c32281139_full.jpg" alt="Profile Picture" width="35">
+<div class="name">Hello <span>nectarine_consumer</span></div>
+</div>
+<ul>
+
+<li><a href="https://popflash.site/user/1625448">▸ &nbsp;Profile</a></li>
+<li><a href="https://popflash.site/user/edit">▸ &nbsp;Edit Profile</a></li>
+<li><a href="https://popflash.site/subscriptions">▸ &nbsp;Subscriptions</a></li>
+
+<li><a href="https://popflash.site/auth/logout">▸ &nbsp;Logout</a></li>
+</ul>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</header>
+<div id="container">
+<div id="background-overlay"></div>
+<div id="page-container">
+<style type="text/css">
+  #match-container {
+    min-height: 550px;
+  }
+
+  .connect {
+    display: inline-block;
+    background: #F5F5F5;
+    height: 33px;
+    width: 430px;
+    font-size: 14px;
+    line-height: 33px;
+    padding: 0 20px;
+    border: 1px solid #E2E2E2;
+    color: #333;
+    outline: none;
+    text-align: center;
+  }
+
+  .connect:focus {
+    outline: 2px solid #444557;
+  }
+
+  .content-box-1-2 .content-box-container {
+    margin: 0 15px;
+  }
+
+  .name span {
+    font-weight: normal;
+  }
+
+  .score {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 3em;
+    min-height: 50px;
+    min-width: 35px;
+    width: 50px;
+    padding: 5px;
+    margin: 0 35px 25px 35px;
+    background: #444557;
+    color: #FFF;
+    text-align: center;
+    display: inline-block;
+  }
+
+  a.demo-download {
+    display: block;
+    background: #e83c2f;
+    color: #FFF;
+    height: 20px;
+    line-height: 20px;
+    width: 140px;
+    padding: 5px;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+
+  .anywhere {
+    font-size: .7em;
+  }
+
+  #clipboard-container {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    z-index: 100;
+    display: none;
+    opacity: 0;
+  }
+  #clipboard {
+    width: 1px;
+    height: 1px;
+    padding: 0px;
+  }
+
+  .is-user td {
+    opacity: 1;
+  }
+
+  td {
+    padding: 5px;
+    font-size: 12px;
+    opacity: .8;
+  }
+
+  tr:hover td {
+    opacity: 1;
+  }
+
+  .is-user td.name {
+    font-weight: bold
+  }
+
+  td.name {
+    color: #FFF;
+    min-width: 75px;
+  }
+
+  td.name a {
+    color: #FFF;
+  }
+
+  tr.subscription .name a {
+    color: #fbfe03;
+  }
+
+  td.premium-stat {
+    opacity: .3;
+  }
+
+  tr.subscription td.premium-stat {
+    opacity: 1;
+  }
+
+  td.bold {
+    font-weight: bold;
+  }
+
+  .connect-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .connect-container .copy {
+    background: #F5F5F5;
+    border: 1px solid #E2E2E2;
+    border-left: none;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+    cursor: pointer;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .gotv {
+    font-size: 12px;
+    font-style: italic;
+    margin: 16px 0;
+    opacity: 0.9;
+    text-align: center;
+  }
+
+</style>
+<div id="match-container">
+<h2>MATCH 1281644 ON <span data-date="Wed Nov 17 2021 04:03:23 GMT+0000 (Coordinated Universal Time)">17/11/2021 AT 04:03:23</span></h2>
+<div style="display: flex;">
+<div style="width: 49%; height: 240px; border-right: 1px solid #E3E3E3; text-align: center; display: table;">
+<div style="width: 420px; height: 236px; margin: 0 auto; display: table-cell; vertical-align: middle;">
+<div class="score score-1">
+8
+</div>
+<div class="score score-2">
+16
+</div>
+<br>
+Scrim
+<br>
+de_dust2
+<br>
+Match is final
+</div>
+</div>
+<div style="width: 49%; height: 270px; text-align: center;">
+<img src="example_files/Ub8EZLi.jpg" width="420">
+</div>
+</div>
+<div class="clear"></div>
+<div class="scoreboards" style="display: flex; justify-content: space-between;">
+<div style="padding: 0 10px; display: inline-block;">
+<table>
+<tbody><tr>
+<td title="the players name...">Name</td>
+<td title="Kills">K</td>
+<td title="Assists">A</td>
+<td title="Deaths">D</td>
+<td tile="Flash Assists">
+<a href="javascript:alert('flash assists');"><svg title="Flash Assists" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="14" height="14" viewBox="0 0 128 171">
+<image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACrCAMAAACZi2QMAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABCFBMVEX7/gP91lP81Uf801H81U373yf81Uv74x379Qj810H81kb78Az81Uj75Rr76hL73Sv82D372zH81kX72jX810T74SP78wn77g781kf81U378Az79Aj74x791VT81kv77Q/810L74CP73ij82Dr81FD74iD75xb73Sz72Dr72jX72jT810D78gr73C773yT72jL82Dv75hj77w377BD81z/75Bz76hP74SL79wb73Sz76RX75Rr78wn73DD73in72zH82Dz75hj76xL72Tf73yb73Sr74h/76xH72Dv78gn75xf73Sn7+gT7/gP7+wT79wb7/QP7/AT7/AP7+AX7+QX7+gX7+Ab///8Jhi9IAAAATHRSTlMAF2osStxS7P6Kbvxi8fnTnMZ2uX3l/ftuP/3+7CNc+oTj2qg36fXTqLa9kP3P4cCj9Pz6lu745/7Q9vD+ydnEnvL4st/W6vmj/vTZLJuKhQAAAAFiS0dEV30K2R8AAAAJcEhZcwAACxIAAAsSAdLdfvwAAAb5SURBVHja5Vx9X9s2EHbiAIlj3oyB8ZayLryUFjo6urJ1XWFd126LEpPQfv+PMustMRBLd9KZbL89/4BDpOei5yTdnRSCwBW1ehg0enPz9ZpzF14IGWMLTKDZimZgRVuSs4U4XOQ/l+L4Ua1oMI3+8sqi/r29Ml83NltNaIwM1+ZYGZrp1Cb19cFgI8v/noQEBpTTc/TiBw3SrPD3zW+8DUiZGdlWcaRroXxxY7Dd3BGWzHtbsMts2BubIN3lJlGPCXffobcOSdNqQixJOmLUi76ZkFgQJMkTmwn7ii27x8ZtGhJMB5snsJHkv33Qklsw8rdgzmYAa3Ab21OaRvnrA28DrPyM8387tS33zE61Eqi/Pp3eVsxM7yFYMfBHaoDK2n4n3uOJHYMBNTUOZW27fHZ48jcM/Afyx2F56yOTeTDU7V5oaN3xnwj2xXDF1Hzk6wVd+wDEpvbH+RsaPgbMA9YBU3vuQs98DNixG3Bias9X6Q0P/tDOb/aBrsVLbTgBGHBs7IE5OEEt1DvrPoDfLIGYReCVoBEHz1/IXgdpmIaAKZDj1NjnMcaAIYjwPs6Mfbbyd7yEDoATP9s1drqcv+N76Ai4GXBu7HMpf0cC5M/cDHhl7LQPNwDmcg9h3mz4pwI6oaML8KjUIitwN2o7GtAzdSpCFlhcCFl1p6Jv1RWWnwD2vQmK/npj6lWspTAFrClQmQFDU6+8vtKsVgFj1ClcADYLUQrchaFXkTfA0jPXOWA2gCcVX2Au4M7PLL3WZ2gAT09Zd4YGrDHLLKUxoNTJxADE1RtQOsZ8J+wD+X1mQdk8F0sLuD6w5W5ASdwvtoEjKL/HSli23/NYCJMSWKtRBkwb56TcNMOIOSJ7uOGKGfADgt9rHjx0A+FSmyj+jo8B9/MzXhwqKZ2VAlAKMapQnIzr/JV9HH8wcKVuxuoXZUItzgpPYLjGxDw9T1SAlC2sr7XEp5/UzcFwnwRbeevoblJzBt0AChi58qvFPh6bsONUl3MfgEm8Ues2OlHqWB933wqA8YYNznMAvN0SKxA/V794l+MlEhz9s0kuT3FAmCPG0D+tqb2GQbMeOzD8wu0v1AN6vZkOvgxmwJBEep1WgGgAeF7WBTqi8Dq9c73yZVbII9LX0JBIeJ1+r+dhhEYo+sUo0KNVIOJJPjA9FkfSOnh5QmTAj7k3QwMioYB2AUIFoCuRrEjprZNoAGpA8rECOnh5Q2QAgl8qoOUiWoUwGcnXKhTAhMPC6/SKdebLjFWgzS5FA+0C3qfCSAX6mRJdn2USDQB0J46bilIrcOpJjFQg+YnvFxx6Dvhf0xGArkDdnl74NuUL0OKTDUcw/uggUwrosOHikRVgX9mOaKCDMa8j6QngJeJMTbsl+Tj0JNY4hvL/rJZhrUDrcRVg7K1yAe20WzT84Ixs2GO/iBaL8vmSaABOoQYcqHBcb90O+fdUYJLysKgA1c1SBL+8rabv2BLx831gFMEMmC8qQBSKiGraFnAxrkqBd8GvIH558vOaVoG9vC9oaSDVFlMq8J5Xc4ETQQy6Dl6I+PnnSYExuTwiV/dsDz15NfgcgOYEV0UFiBIiwHXR6hWAQipwLR/OPXk13iEMuKhCgT7CgKACBTApqSwGHsoH5DlEKVah7Nv6M6tn4GG0FZtA/uWhSsOVAhkRP3QOXGxrrzuXL6wR8bdg/Kudm3sKEBWHoeFwlGWqFDUbBZbyaFwpsEurADgp/01HH8QKfIAa8FYNugrcqFJS8D4wvGW/iwZv5DNVOA5W4FqfgKpnohMieEa0q1xAKXDrS6yBuL7aLCpAtQxjrktcFRUgOiFCnVEJBVQtceRLrMF9sAbzA3lj9KN8IKoMigGNgTPxTixExc8VgAYkQnW1dVOdT3BFV4H8l0EtHd+1pAoG+YBCD0i+FCcsFb/rjSEyF/zDjf+Ait/ptshwlSojxsXjEp9IvkQ7BuIS/dEJ63+mCkFcFAiDCr5nvQdlb1q+O+EKYEqYvaCrxDgp0BnSLTwuCsRtwqX/DmA1qYyXb8iW/iKAsdAt+7MiBcCr0DXZmUgR8G0o61m+Q+ZEj4iFz+hdoG7/9mgBLXIXwG1Bwx7VLbUxgKcCE1BlgRp/YQ0g3YED/LVlshxEAR0HUitwhTWAOhD43yuANmDWc4B6I0LeWaUfgT20AVQ1eUcFGPVW5GAAWSbqasCHWRtAuxs7GJCRGvD3f9ELSfnR4dC/YAQyWgPwazHVfU0NtBvSLkQB/qtk1PzY75JRKyAA+a8mlSkggIiLKuHP87PlWSogBwFWJaxGAQnQklAhf46oZ+P/WK0B+aJgKdZRnc4Zh8FUtH8Efo607NyM6NI2BN00fHmX/Dx6RHqNsJOkSZJGHeqETOMfS4/TKo46tMgAAAAASUVORK5CYII=" width="128" height="171"></image>
+</svg></a>
+</td>
+<td title="Average Damage per Round">ADR</td>
+<td title="HLTV Rating">HLTV</td>
+<td title="Headshot Percentage">HS</td>
+<td title="Clutch Kills">CK</td>
+<td title="Bombs Planted">BP</td>
+<td title="Bombs Defused">BD</td>
+</tr>
+<tr class="  ">
+<td class="name" title="Zhong Xina">
+<a href="https://popflash.site/user/1622665">Zhong Xina</a>
+</td>
+<td>25</td>
+<td>5</td>
+<td>17</td>
+<td>2</td>
+<td>105</td>
+<td>1.47</td>
+<td>.200</td>
+<td>4</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr class="  ">
+<td class="name" title="Jaewon">
+<a href="https://popflash.site/user/971275">Jaewon</a>
+</td>
+<td>19</td>
+<td>7</td>
+<td>20</td>
+<td>0</td>
+<td>91</td>
+<td>1.02</td>
+<td>.227</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr class="  ">
+<td class="name" title="Okuz">
+<a href="https://popflash.site/user/1150897">Okuz</a>
+</td>
+<td>15</td>
+<td>2</td>
+<td>21</td>
+<td>0</td>
+<td>67</td>
+<td>0.77</td>
+<td>.204</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="  ">
+<td class="name" title="spaceman">
+<a href="https://popflash.site/user/1581773">spaceman</a>
+</td>
+<td>11</td>
+<td>5</td>
+<td>23</td>
+<td>0</td>
+<td>62</td>
+<td>0.49</td>
+<td>.146</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="  ">
+<td class="name" title="SleazySteve">
+<a href="https://popflash.site/user/1581775">SleazySteve</a>
+</td>
+<td>4</td>
+<td>4</td>
+<td>21</td>
+<td>0</td>
+<td>37</td>
+<td>0.24</td>
+<td>.167</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+</tr>
+</tbody></table>
+<br>
+<table>
+<tbody><tr>
+<td title="the players name...">Name</td>
+<td title="Flash Assists">FA</td>
+<td title="Flash Throws">FT</td>
+<td title="Flash Enemy Hits">FEH</td>
+<td title="Flash Enemy Percent">FEP</td>
+<td title="Flash Enemy Duration">FED</td>
+<td title="Flash Teammate Hits">FTH</td>
+<td title="Flash Teammate Percent">FTP</td>
+<td title="Flash Teammate Duration">FTD</td>
+</tr>
+<tr class="  ">
+<td class="name" title="Zhong Xina">
+<a href="https://popflash.site/user/1622665">Zhong Xina</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class="  ">
+<td class="name" title="Jaewon">
+<a href="https://popflash.site/user/971275">Jaewon</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class="  ">
+<td class="name" title="Okuz">
+<a href="https://popflash.site/user/1150897">Okuz</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class="  ">
+<td class="name" title="spaceman">
+<a href="https://popflash.site/user/1581773">spaceman</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class="  ">
+<td class="name" title="SleazySteve">
+<a href="https://popflash.site/user/1581775">SleazySteve</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+</tbody></table>
+<br>
+<table>
+<tbody><tr>
+<td title="the players name...">Name</td>
+<td title="Kills.. fuckin' duh">K</td>
+<td title="Total 1k Rounds">1K</td>
+<td title="Total 2k Rounds">2K</td>
+<td title="Total 3k Rounds">3K</td>
+<td title="Total 4k Rounds">4K</td>
+<td title="Total 5k Rounds">5K</td>
+<td title="Total 1v1 Clutches">1v1</td>
+<td title="Total 1v2 Clutches">1v2</td>
+<td title="Total 1v3 Clutches">v3</td>
+<td title="Total 1v4 Clutches">v4</td>
+<td title="Total 1v5 Clutches">v5</td>
+</tr>
+<tr class="  ">
+<td class="name" title="Zhong Xina">
+<a href="https://popflash.site/user/1622665">Zhong Xina</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class="  ">
+<td class="name" title="Jaewon">
+<a href="https://popflash.site/user/971275">Jaewon</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class="  ">
+<td class="name" title="Okuz">
+<a href="https://popflash.site/user/1150897">Okuz</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class="  ">
+<td class="name" title="spaceman">
+<a href="https://popflash.site/user/1581773">spaceman</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class="  ">
+<td class="name" title="SleazySteve">
+<a href="https://popflash.site/user/1581775">SleazySteve</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+</tbody></table>
+<br><table>
+<tbody><tr>
+<td title="the players name...">Name</td>
+ <td title="Rounds Fired">RF</td>
+<td title="Rounds Hit">RH</td>
+<td title="Rounds Hit Head">HD</td>
+<td title="Rounds Hit Upper Torso">UT</td>
+<td title="Rounds Hit Lower Torso">LT</td>
+<td title="Rounds Hit Right Arm">RA</td>
+<td title="Rounds Hit Left Arm">LA</td>
+<td title="Rounds Hit Right Leg">RL</td>
+<td title="Rounds Hit Left Leg">LL</td>
+<td title="Damage Done">DD</td>
+</tr>
+
+<tr class="  ">
+<td class="name" title="Zhong Xina">
+<a href="https://popflash.site/user/1622665">Zhong Xina</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class="  ">
+<td class="name" title="Jaewon">
+<a href="https://popflash.site/user/971275">Jaewon</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class="  ">
+<td class="name" title="Okuz">
+<a href="https://popflash.site/user/1150897">Okuz</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class="  ">
+<td class="name" title="spaceman">
+<a href="https://popflash.site/user/1581773">spaceman</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class="  ">
+<td class="name" title="SleazySteve">
+<a href="https://popflash.site/user/1581775">SleazySteve</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+</tbody></table>
+<br>
+</div>
+<div style="padding: 0 10px; display: inline-block;">
+<table>
+<tbody><tr>
+<td title="the players name...">Name</td>
+<td title="Kills">K</td>
+<td title="Assists">A</td>
+<td title="Deaths">D</td>
+<td tile="Flash Assists">
+<a href="javascript:alert('flash assists');"><svg title="Flash Assists" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="14" height="14" viewBox="0 0 128 171">
+<image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACrCAMAAACZi2QMAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABCFBMVEX7/gP91lP81Uf801H81U373yf81Uv74x379Qj810H81kb78Az81Uj75Rr76hL73Sv82D372zH81kX72jX810T74SP78wn77g781kf81U378Az79Aj74x791VT81kv77Q/810L74CP73ij82Dr81FD74iD75xb73Sz72Dr72jX72jT810D78gr73C773yT72jL82Dv75hj77w377BD81z/75Bz76hP74SL79wb73Sz76RX75Rr78wn73DD73in72zH82Dz75hj76xL72Tf73yb73Sr74h/76xH72Dv78gn75xf73Sn7+gT7/gP7+wT79wb7/QP7/AT7/AP7+AX7+QX7+gX7+Ab///8Jhi9IAAAATHRSTlMAF2osStxS7P6Kbvxi8fnTnMZ2uX3l/ftuP/3+7CNc+oTj2qg36fXTqLa9kP3P4cCj9Pz6lu745/7Q9vD+ydnEnvL4st/W6vmj/vTZLJuKhQAAAAFiS0dEV30K2R8AAAAJcEhZcwAACxIAAAsSAdLdfvwAAAb5SURBVHja5Vx9X9s2EHbiAIlj3oyB8ZayLryUFjo6urJ1XWFd126LEpPQfv+PMustMRBLd9KZbL89/4BDpOei5yTdnRSCwBW1ehg0enPz9ZpzF14IGWMLTKDZimZgRVuSs4U4XOQ/l+L4Ua1oMI3+8sqi/r29Ml83NltNaIwM1+ZYGZrp1Cb19cFgI8v/noQEBpTTc/TiBw3SrPD3zW+8DUiZGdlWcaRroXxxY7Dd3BGWzHtbsMts2BubIN3lJlGPCXffobcOSdNqQixJOmLUi76ZkFgQJMkTmwn7ii27x8ZtGhJMB5snsJHkv33Qklsw8rdgzmYAa3Ab21OaRvnrA28DrPyM8387tS33zE61Eqi/Pp3eVsxM7yFYMfBHaoDK2n4n3uOJHYMBNTUOZW27fHZ48jcM/Afyx2F56yOTeTDU7V5oaN3xnwj2xXDF1Hzk6wVd+wDEpvbH+RsaPgbMA9YBU3vuQs98DNixG3Bias9X6Q0P/tDOb/aBrsVLbTgBGHBs7IE5OEEt1DvrPoDfLIGYReCVoBEHz1/IXgdpmIaAKZDj1NjnMcaAIYjwPs6Mfbbyd7yEDoATP9s1drqcv+N76Ai4GXBu7HMpf0cC5M/cDHhl7LQPNwDmcg9h3mz4pwI6oaML8KjUIitwN2o7GtAzdSpCFlhcCFl1p6Jv1RWWnwD2vQmK/npj6lWspTAFrClQmQFDU6+8vtKsVgFj1ClcADYLUQrchaFXkTfA0jPXOWA2gCcVX2Au4M7PLL3WZ2gAT09Zd4YGrDHLLKUxoNTJxADE1RtQOsZ8J+wD+X1mQdk8F0sLuD6w5W5ASdwvtoEjKL/HSli23/NYCJMSWKtRBkwb56TcNMOIOSJ7uOGKGfADgt9rHjx0A+FSmyj+jo8B9/MzXhwqKZ2VAlAKMapQnIzr/JV9HH8wcKVuxuoXZUItzgpPYLjGxDw9T1SAlC2sr7XEp5/UzcFwnwRbeevoblJzBt0AChi58qvFPh6bsONUl3MfgEm8Ues2OlHqWB933wqA8YYNznMAvN0SKxA/V794l+MlEhz9s0kuT3FAmCPG0D+tqb2GQbMeOzD8wu0v1AN6vZkOvgxmwJBEep1WgGgAeF7WBTqi8Dq9c73yZVbII9LX0JBIeJ1+r+dhhEYo+sUo0KNVIOJJPjA9FkfSOnh5QmTAj7k3QwMioYB2AUIFoCuRrEjprZNoAGpA8rECOnh5Q2QAgl8qoOUiWoUwGcnXKhTAhMPC6/SKdebLjFWgzS5FA+0C3qfCSAX6mRJdn2USDQB0J46bilIrcOpJjFQg+YnvFxx6Dvhf0xGArkDdnl74NuUL0OKTDUcw/uggUwrosOHikRVgX9mOaKCDMa8j6QngJeJMTbsl+Tj0JNY4hvL/rJZhrUDrcRVg7K1yAe20WzT84Ixs2GO/iBaL8vmSaABOoQYcqHBcb90O+fdUYJLysKgA1c1SBL+8rabv2BLx831gFMEMmC8qQBSKiGraFnAxrkqBd8GvIH558vOaVoG9vC9oaSDVFlMq8J5Xc4ETQQy6Dl6I+PnnSYExuTwiV/dsDz15NfgcgOYEV0UFiBIiwHXR6hWAQipwLR/OPXk13iEMuKhCgT7CgKACBTApqSwGHsoH5DlEKVah7Nv6M6tn4GG0FZtA/uWhSsOVAhkRP3QOXGxrrzuXL6wR8bdg/Kudm3sKEBWHoeFwlGWqFDUbBZbyaFwpsEurADgp/01HH8QKfIAa8FYNugrcqFJS8D4wvGW/iwZv5DNVOA5W4FqfgKpnohMieEa0q1xAKXDrS6yBuL7aLCpAtQxjrktcFRUgOiFCnVEJBVQtceRLrMF9sAbzA3lj9KN8IKoMigGNgTPxTixExc8VgAYkQnW1dVOdT3BFV4H8l0EtHd+1pAoG+YBCD0i+FCcsFb/rjSEyF/zDjf+Ait/ptshwlSojxsXjEp9IvkQ7BuIS/dEJ63+mCkFcFAiDCr5nvQdlb1q+O+EKYEqYvaCrxDgp0BnSLTwuCsRtwqX/DmA1qYyXb8iW/iKAsdAt+7MiBcCr0DXZmUgR8G0o61m+Q+ZEj4iFz+hdoG7/9mgBLXIXwG1Bwx7VLbUxgKcCE1BlgRp/YQ0g3YED/LVlshxEAR0HUitwhTWAOhD43yuANmDWc4B6I0LeWaUfgT20AVQ1eUcFGPVW5GAAWSbqasCHWRtAuxs7GJCRGvD3f9ELSfnR4dC/YAQyWgPwazHVfU0NtBvSLkQB/qtk1PzY75JRKyAA+a8mlSkggIiLKuHP87PlWSogBwFWJaxGAQnQklAhf46oZ+P/WK0B+aJgKdZRnc4Zh8FUtH8Efo607NyM6NI2BN00fHmX/Dx6RHqNsJOkSZJGHeqETOMfS4/TKo46tMgAAAAASUVORK5CYII=" width="128" height="171"></image>
+</svg></a>
+</td>
+<td title="Average Damage per Round">ADR</td>
+<td title="HLTV Rating">HLTV</td>
+<td title="Headshot Percentage">HS</td>
+<td title="Clutch Kills">CK</td>
+<td title="Bombs Planted">BP</td>
+<td title="Bombs Defused">BD</td>
+</tr>
+<tr class="  ">
+<td class="name" title="StS`p.[yO]">
+<a href="https://popflash.site/user/559853">StS`p.[yO]</a>
+</td>
+<td>24</td>
+<td>4</td>
+<td>15</td>
+<td>1</td>
+<td>99</td>
+<td>1.46</td>
+<td>.146</td>
+<td>1</td>
+<td>5</td>
+<td>0</td>
+</tr>
+<tr class="  ">
+<td class="name" title="bigblunts100">
+<a href="https://popflash.site/user/1603334">bigblunts100</a>
+</td>
+<td>23</td>
+<td>8</td>
+<td>16</td>
+<td>1</td>
+<td>106</td>
+<td>1.27</td>
+<td>.203</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr class=" subscription ">
+<td class="name" title="ChoA">
+<a href="https://popflash.site/user/485335"><span title="ITS A CACTUS">🌵</span>ChoA</a>
+</td>
+<td>22</td>
+<td>2</td>
+<td>17</td>
+<td>1</td>
+<td>84</td>
+<td>1.32</td>
+<td>.076</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr class="  ">
+<td class="name" title="iPenguin">
+<a href="https://popflash.site/user/1599340">iPenguin</a>
+</td>
+<td>21</td>
+<td>5</td>
+<td>15</td>
+<td>2</td>
+<td>87</td>
+<td>1.23</td>
+<td>.148</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class=" subscription ">
+<td class="name" title="microN">
+<a href="https://popflash.site/user/672132"><span title="ITS A CACTUS">🌵</span>microN</a>
+</td>
+<td>12</td>
+<td>6</td>
+<td>11</td>
+<td>1</td>
+<td>74</td>
+<td>0.96</td>
+<td>.143</td>
+<td>1</td>
+<td>4</td>
+<td>1</td>
+</tr>
+</tbody></table>
+<br>
+<table>
+<tbody><tr>
+<td title="the players name...">Name</td>
+<td title="Flash Assists">FA</td>
+<td title="Flash Throws">FT</td>
+<td title="Flash Enemy Hits">FEH</td>
+<td title="Flash Enemy Percent">FEP</td>
+<td title="Flash Enemy Duration">FED</td>
+<td title="Flash Teammate Hits">FTH</td>
+<td title="Flash Teammate Percent">FTP</td>
+<td title="Flash Teammate Duration">FTD</td>
+</tr>
+<tr class="  ">
+<td class="name" title="StS`p.[yO]">
+<a href="https://popflash.site/user/559853">StS`p.[yO]</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class="  ">
+<td class="name" title="bigblunts100">
+<a href="https://popflash.site/user/1603334">bigblunts100</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class=" subscription ">
+<td class="name" title="ChoA">
+<a href="https://popflash.site/user/485335"><span title="ITS A CACTUS">🌵</span>ChoA</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class="  ">
+<td class="name" title="iPenguin">
+<a href="https://popflash.site/user/1599340">iPenguin</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class=" subscription ">
+<td class="name" title="microN">
+<a href="https://popflash.site/user/672132"><span title="ITS A CACTUS">🌵</span>microN</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+</tbody></table>
+<br>
+<table>
+<tbody><tr>
+<td title="the players name...">Name</td>
+<td title="Kills.. fuckin' duh">K</td>
+<td title="Total 1k Rounds">1K</td>
+<td title="Total 2k Rounds">2K</td>
+<td title="Total 3k Rounds">3K</td>
+<td title="Total 4k Rounds">4K</td>
+<td title="Total 5k Rounds">5K</td>
+<td title="Total 1v1 Clutches">1v1</td>
+<td title="Total 1v2 Clutches">1v2</td>
+<td title="Total 1v3 Clutches">v3</td>
+<td title="Total 1v4 Clutches">v4</td>
+<td title="Total 1v5 Clutches">v5</td>
+</tr>
+<tr class="  ">
+<td class="name" title="StS`p.[yO]">
+<a href="https://popflash.site/user/559853">StS`p.[yO]</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class="  ">
+<td class="name" title="bigblunts100">
+<a href="https://popflash.site/user/1603334">bigblunts100</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class=" subscription ">
+<td class="name" title="ChoA">
+<a href="https://popflash.site/user/485335"><span title="ITS A CACTUS">🌵</span>ChoA</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class="  ">
+<td class="name" title="iPenguin">
+<a href="https://popflash.site/user/1599340">iPenguin</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class=" subscription ">
+<td class="name" title="microN">
+<a href="https://popflash.site/user/672132"><span title="ITS A CACTUS">🌵</span>microN</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+</tbody></table>
+<br><table>
+<tbody><tr>
+<td title="the players name...">Name</td>
+<td title="Rounds Fired">RF</td>
+<td title="Rounds Hit">RH</td>
+<td title="Rounds Hit Head">HD</td>
+<td title="Rounds Hit Upper Torso">UT</td>
+<td title="Rounds Hit Lower Torso">LT</td>
+<td title="Rounds Hit Right Arm">RA</td>
+<td title="Rounds Hit Left Arm">LA</td>
+<td title="Rounds Hit Right Leg">RL</td>
+<td title="Rounds Hit Left Leg">LL</td>
+<td title="Damage Done">DD</td>
+</tr>
+
+<tr class="  ">
+<td class="name" title="StS`p.[yO]">
+<a href="https://popflash.site/user/559853">StS`p.[yO]</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class="  ">
+<td class="name" title="bigblunts100">
+<a href="https://popflash.site/user/1603334">bigblunts100</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class=" subscription ">
+<td class="name" title="ChoA">
+<a href="https://popflash.site/user/485335"><span title="ITS A CACTUS">🌵</span>ChoA</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class="  ">
+<td class="name" title="iPenguin">
+<a href="https://popflash.site/user/1599340">iPenguin</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+<tr class=" subscription ">
+<td class="name" title="microN">
+<a href="https://popflash.site/user/672132"><span title="ITS A CACTUS">🌵</span>microN</a>
+</td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+<td><a href="https://popflash.site/subscribe">?</a></td>
+</tr>
+</tbody></table>
+<br>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div id="clipboard-container"><textarea id="clipboard"></textarea></div>
+<script type="text/javascript">
+  var TrelloClipboard;
+
+  function fallbackCopyTextToClipboard(text) {
+    var textArea = document.createElement("textarea");
+    textArea.value = text;
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+
+    try {
+      var successful = document.execCommand('copy');
+      var msg = successful ? 'successful' : 'unsuccessful';
+      console.log('Fallback: Copying text command was ' + msg);
+    } catch (err) {
+      console.error('Fallback: Oops, unable to copy', err);
+    }
+
+    document.body.removeChild(textArea);
+  }
+  function copyTextToClipboard(text) {
+    if (!navigator.clipboard) {
+      fallbackCopyTextToClipboard(text);
+      return;
+    }
+    navigator.clipboard.writeText(text).then(function() {
+      console.log('Async: Copying to clipboard was successful!');
+    }, function(err) {
+      console.error('Async: Could not copy text: ', err);
+    });
+  }
+
+  var date = $('h2 span').attr('data-date');
+
+  $('h2 span').text(new Date(date).toLocaleString().replace(',', ' AT'));
+
+  $('.copy').click(function() {
+    copyTextToClipboard('connect 135.148.52.87:27679; password popflash');
+  });
+
+  TrelloClipboard = new ((function() {
+
+    function _Class() {
+      var _this = this;
+      this.value = "";
+      $(document).keydown(function(e) {
+        var _ref, _ref1;
+        if (!_this.value || !(e.ctrlKey || e.metaKey)) {
+          return;
+        }
+        if ($(e.target).is("input:visible,textarea:visible")) {
+          return;
+        }
+        if (typeof window.getSelection === "function" ? (_ref = window.getSelection()) != null ? _ref.toString() : void 0 : void 0) {
+          return;
+        }
+        if ((_ref1 = document.selection) != null ? _ref1.createRange().text : void 0) {
+          return;
+        }
+        return setTimeout(function() {
+          var $clipboardContainer;
+          $clipboardContainer = $("#clipboard-container");
+          $clipboardContainer.empty().show();
+          return $("<textarea id='clipboard'></textarea>").val(_this.value).appendTo($clipboardContainer).focus().select();
+        }, 1);
+      });
+      $(document).keyup(function(e) {
+        if ($(e.target).is("#clipboard")) {
+          return $("#clipboard-container").empty().hide();
+        }
+      });
+    }
+
+    _Class.prototype.set = function(value) {
+      this.value = value;
+    };
+
+    return _Class;
+
+  })());
+
+
+  $(function() {
+    $('input').click(function() {
+      $(this).select();
+    });
+  });
+</script>
+</div>
+</div>
+<style type="text/css">
+    footer {
+      background: #e83c30;
+      min-height: 80px;
+    }
+  
+    #footer-container {
+      width: 940px;
+      height: 80px;
+      margin: 0 auto;
+      line-height: 80px;
+      color: #FFF;
+    }
+  
+    #footer-container a {
+      color: #FFF;
+      text-decoration: none;
+    }
+  
+    footer .logo {
+      padding-left: 20px;
+      padding-right: 50px;
+      height: 85px;
+      line-height: 85px;
+    }
+  
+    footer .logo a {
+      text-decoration: none;
+      font-size: 1.5em;
+      color: #FFF; /* red */
+      font-family: 'Roboto Condensed', sans-serif
+    }
+  
+    footer .logo a .flash {
+      font-weight: bold;
+    }
+  </style>
+<footer>
+<div id="footer-container">
+<div style="float: left;">
+<div class="logo">
+<a href="https://popflash.site/">POP<span class="flash">FLASH.</span><span class="site">SITE</span></a>
+</div>
+</div>
+<div style="float: right;">
+<a href="https://popflash.site/terms-of-service">TERMS</a> | <a href="https://popflash.site/privacy-policy">PRIVACY</a>
+</div>
+<div class="clear"></div>
+</div>
+</footer>
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-65110825-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+<script async="" defer="defer" data-domain="popflash.site" src="example_files/plausible.js" type="text/javascript"></script>
+<script src="example_files/sentry.js" crossorigin="anonymous" type="text/javascript"></script>
+<script type="text/javascript">
+    Sentry.init({ dsn: 'https://58c2a79174814623bcdee11eac685a15@scentry.typetwo.space/2' });
+  </script>
+<script type="text/javascript">
+    Sentry.configureScope(function(scope) {
+      scope.setUser({
+        "id": 1625448
+      });
+    });
+  </script>
+
+
+<script>mendeleyWebImporter = {
+  downloadPdfs(e,t) { return this._call('downloadPdfs', [e,t]); },
+  open() { return this._call('open', []); },
+  setLoginToken(e) { return this._call('setLoginToken', [e]); },
+  _call(methodName, methodArgs) {
+    const id = Math.random();
+    window.postMessage({ id, token: '0.9917944114564566', methodName, methodArgs }, 'https://popflash.site');
+    return new Promise(resolve => {
+      const listener = window.addEventListener('message', event => {
+        const data = event.data;
+        if (typeof data !== 'object' || !('result' in data) || data.id !== id) return;
+        window.removeEventListener('message', listener);
+        resolve(data.result);
+      });
+    });
+  }
+};</script></body></html>
