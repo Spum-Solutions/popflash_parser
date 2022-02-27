@@ -4,7 +4,6 @@ use serde_derive::{Deserialize, Serialize};
 
 use super::player_stats::PlayerStats;
 
-// represent team 1 or team 2 - makes it easier to distinguish which group of players stats to get etc
 #[derive(Serialize, Deserialize, Debug)]
 pub struct Team {
     // represent team 1 or team 2 - makes it easier to distinguish which group of players stats to get etc
