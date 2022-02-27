@@ -58,3 +58,28 @@ pub async fn match_from_url(url: &str) -> Match::Match {
     let body = utility::get_body_from_url(url).await.unwrap();
     Match::Match::new(&body)
 }
+
+/// Offers synchronous support for the crate with the same interface of async context is unavailable.
+pub mod synchronous {
+    use tokio::runtime::Runtime;
+
+    /// Retrieve match information from a match id such as `1281644`
+    pub fn match_from_id(match_id: &str) -> crate::Match::Match {
+        let rt = Runtime::new().unwrap();
+
+        // Execute the future, blocking the current thread until completion
+        let match_data =
+            rt.block_on(async { super::utility::get_body_from_id(match_id).await.unwrap() });
+        crate::Match::Match::new(&match_data)
+    }
+
+    /// Retrieve match information from a match url such as <https://popflash.site/match/1281644>
+    pub fn match_from_url(url: &str) -> crate::Match::Match {
+        let rt = Runtime::new().unwrap();
+
+        // Execute the future, blocking the current thread until completion
+        let match_data =
+            rt.block_on(async { super::utility::get_body_from_url(url).await.unwrap() });
+        crate::Match::Match::new(&match_data)
+    }
+}
