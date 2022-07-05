@@ -36,50 +36,55 @@
 //! # }
 //! ```
 
-pub const EXAMPLE_GAME_URL: &str = "https://popflash.site/match/1281644";
-pub const EXAMPLE_GAME_ID: &str = "1281644";
+use r#match::Match;
 
-pub mod player_stats;
-pub mod team;
+mod player_stats;
+mod team;
 pub mod utility;
 
-// has to have capital to not conflict with rust keywords
-#[warn(non_snake_case)]
-pub mod Match;
+// match is a rust keyword so need to be done like this
+pub mod r#match;
 
 /// Retrieve match information from a match id such as `1281644`
-pub async fn match_from_id(match_id: &str) -> Match::Match {
+pub async fn match_from_id(match_id: usize) -> Match {
     let body = utility::get_body_from_id(match_id).await.unwrap();
-    Match::Match::new(&body)
+    Match::new(&body)
 }
 
 /// Same as `match_from_id` instead taking a full url as a `&str`
-pub async fn match_from_url(url: &str) -> Match::Match {
+pub async fn match_from_url(url: &str) -> Match {
     let body = utility::get_body_from_url(url).await.unwrap();
-    Match::Match::new(&body)
+    Match::new(&body)
 }
 
-/// Offers synchronous support for the crate with the same interface of async context is unavailable.
-pub mod synchronous {
-    use tokio::runtime::Runtime;
+#[cfg(test)]
+mod tests {
+    use super::*;
+    const EXAMPLE_GAME_URL: &str = "https://popflash.site/match/1281644";
+    const EXAMPLE_GAME_ID: usize = 1281644;
+    mod match_from_id {
+        use super::*;
+        #[tokio::test]
+        async fn valid_popflash_id_1() {
+            let body = utility::get_body_from_id(EXAMPLE_GAME_ID).await.unwrap();
+            todo!()
+        }
 
-    /// Retrieve match information from a match id such as `1281644`
-    pub fn match_from_id(match_id: &str) -> crate::Match::Match {
-        let rt = Runtime::new().unwrap();
-
-        // Execute the future, blocking the current thread until completion
-        let match_data =
-            rt.block_on(async { super::utility::get_body_from_id(match_id).await.unwrap() });
-        crate::Match::Match::new(&match_data)
+        #[test]
+        fn invalid_popflash_id_1() {
+            todo!()
+        }
     }
 
-    /// Retrieve match information from a match url such as <https://popflash.site/match/1281644>
-    pub fn match_from_url(url: &str) -> crate::Match::Match {
-        let rt = Runtime::new().unwrap();
+    mod match_from_url {
+        #[test]
+        fn valid_popflash_url_1() {
+            todo!()
+        }
 
-        // Execute the future, blocking the current thread until completion
-        let match_data =
-            rt.block_on(async { super::utility::get_body_from_url(url).await.unwrap() });
-        crate::Match::Match::new(&match_data)
+        #[test]
+        fn invalid_popflash_url_1() {
+            todo!()
+        }
     }
 }
