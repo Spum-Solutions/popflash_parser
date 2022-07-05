@@ -85,12 +85,10 @@ mod tests {
     }
 
     mod match_from_url {
-
         use super::*;
         #[tokio::test]
         async fn valid_popflash_url_1() {
-            let body = match_from_url(EXAMPLE_MATCH_URL).await.unwrap();
-            todo!()
+            assert!(match_from_url(EXAMPLE_MATCH_URL).await.is_ok())
         }
 
         #[test]
