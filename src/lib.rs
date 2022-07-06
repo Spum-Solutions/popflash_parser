@@ -55,18 +55,6 @@ pub mod utility;
 #[doc(hidden)]
 pub mod r#match;
 
-/// Retrieve match information from a match id such as `1281644`
-pub async fn match_from_id(match_id: usize) -> Result<Match, Box<dyn std::error::Error>> {
-    let body = utility::get_body_from_id(match_id).await.unwrap();
-    Ok(Match::new(&body))
-}
-
-/// Same as `match_from_id` instead taking a full url as a `&str`
-pub async fn match_from_url(url: &str) -> Result<Match, Box<dyn std::error::Error>> {
-    let body = utility::get_body_from_url(url).await.unwrap();
-    Ok(Match::new(&body))
-}
-
 #[cfg(test)]
 mod tests {
     use super::*;
