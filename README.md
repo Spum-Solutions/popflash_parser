@@ -1,43 +1,37 @@
 # popflash_parser
-A rust library / tool to parse match results from `https://popflash.site`. Example output seen here https://pastebin.com/MKUyjx9b.
 
-## Getting Started
-Add the library as a dependency in your `cargo.toml` such as follows
+`popflash_parser` is a crate to parse and translate match information from <https://popflash.site/> This tool is currently working as of February 27th 2022, although other similar tools have been borked when `popflash` has changed it's web page structure so take caution when using.
 
-```
-`Cargo.toml`
+Methods are used to get the match data from a url or match ID, they are functionally equivalent to the end user, only differing in what is used to call the function (a url, or match ID)
 
-[dependencies]
-popflash_parser = "0.1.0"
-serde_json = "~1.0"
+``` rust
+## use popflash_parser::*;
+###[tokio::test]
+## async fn test() {
+assert_eq!(
+    Match::from_url("https://popflash.site/match/1281644").await.unwrap(),
+    Match::from_id("1281644").await.unwrap()
+);
+## }
+```rust
 
-`src/main.rs`
-
-fn main() {
-    let match_data = popflash_parser::synchronous::match_from_id("1281644");
-    let json_string = serde_json::to_string(&game).unwrap();
-    let json_json = serde_json::Value::from(json_string);
-}
-```
-
-An asynchronous interface is also available (and is the default) but requires an asynchronous context (such as tokio) and aims to keep the same interface
+A `Match` struct (see example output here: <https://pastebin.com/AVt1zVV8>) can be printed as follows
 
 ```
-`Cargo.toml`
-[dependencies]
-popflash_parser = "0.1.0"
-serde_json = "~1.0"
-tokio = { version = "1", features = ["full"] }
+use popflash_parser::*;
+## async fn test() {
+let match_data  = Match::from_id(1281644).await.unwrap();
+println!("Match::Match output");
+println!("{:#?}", match_data);
 
-`src/main.rs`
+// Convert to JSON string
+let json_string = serde_json::to_string(&match_data).unwrap();
+println!("String output");
+println!("{}", json_string);
 
-#[tokio::main]
-async fn main() {
-    let match_data = popflash_parser::match_from_id("1281644").await;
-    let json_string = serde_json::to_string(&game).unwrap();
-    let json_json = serde_json::Value::from(json_string);
-}
-```
-
-## todos
-see the `Issues` page
+// Convert  to JSON object
+let json_object = serde_json::Value::from(json_string);
+println!("serde_json::Value output");
+println!("{}", json_object);
+## }
+```rust
