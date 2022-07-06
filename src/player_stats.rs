@@ -63,7 +63,7 @@ impl PlayerStats {
 
         // TODO: has to be a better way to do this
         // perhaps macro?
-        
+
         PlayerStats {
             name: trimmed_player_name,
             kills: self::PlayerStats::parse_td_tags(&final_lines[0])
