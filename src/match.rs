@@ -85,7 +85,6 @@ impl Match {
             .unwrap()
             + 6;
         let map_name = new_lines[map_name].clone();
-        println!("\n\n\n\n\n{map_name}");
 
         map_name
     }
@@ -110,5 +109,44 @@ impl Match {
             .nth(1)
             .unwrap()
             .to_string()
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    const EXAMPLE_GAME_URL: &str = "https://popflash.site/match/1281644";
+    const EXAMPLE_GAME_ID: usize = 1281644;
+    mod from_id {
+        use super::*;
+        #[tokio::test]
+        async fn valid_popflash_id_1() {
+            let body = crate::utility::get_body_from_id(EXAMPLE_GAME_ID)
+                .await
+                .unwrap();
+            todo!()
+        }
+
+        #[test]
+        fn invalid_popflash_id_1() {
+            todo!()
+        }
+    }
+
+    mod from_url {
+        #[test]
+        fn valid_popflash_url_1() {
+            todo!()
+        }
+
+        #[test]
+        fn invalid_popflash_url_1() {
+            todo!()
+        }
+    }
+
+    mod popflash_time_to_utc {
+        fn test_valid_1() {
+            todo!()
+        }
     }
 }
