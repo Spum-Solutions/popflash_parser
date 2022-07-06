@@ -43,8 +43,6 @@ const EXAMPLE_MATCH_URL: &str = "https://popflash.site/match/1281644";
 #[doc(hidden)]
 const EXAMPLE_MATCH_ID: usize = 1281644;
 
-
-
 mod player_stats;
 mod team;
 
@@ -54,8 +52,4 @@ pub mod utility;
 // match is a rust keyword so need to be done like this
 #[doc(hidden)]
 pub mod r#match;
-
-#[cfg(test)]
-mod tests {
-    
-}
+pub use r#match::Match;
