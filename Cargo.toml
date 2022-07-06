@@ -1,10 +1,10 @@
 [package]
 name = "popflash_parser"
-version = "2.0.1"
+version = "2.0.2"
 edition = "2021"
 description = "Library for parsing data from popflash.site match links"
 license-file = "./LICENSE"
-repository = "https://github.com/nectariner/popflash_parser"
+repository = "https://github.com/Spum-Solutions/popflash_parser"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
