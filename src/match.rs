@@ -127,10 +127,9 @@ mod tests {
         use super::*;
         #[tokio::test]
         async fn valid_popflash_id_1() {
-            let _body = crate::utility::get_body_from_id(EXAMPLE_GAME_ID)
-                .await
-                .unwrap();
-            todo!()
+            let match_data = crate::Match::from_id(EXAMPLE_GAME_ID).await.unwrap();
+            println!("{:#?}", match_data);
+            assert!(crate::Match::from_id(EXAMPLE_GAME_ID).await.is_ok())
         }
 
         #[test]

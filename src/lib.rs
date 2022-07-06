@@ -9,19 +9,18 @@
 //! ##[tokio::test]
 //! # async fn test() {
 //! assert_eq!(
-//!     match_from_url("https://popflash.site/match/1281644").await,
-//!     match_from_id("1281644").await
+//!     Match::from_url("https://popflash.site/match/1281644").await.unwrap(),
+//!     Match::from_id("1281644").await.unwrap()
 //! );
 //! # }
 //! ```
 //!
-//! A `Match` struct (see example output here: <https://pastebin.com/MKUyjx9b>) can be printed as follows
-//! (run `cargo test -- --nocapture` to see the whole output);
+//! A `Match` struct (see example output here: <https://pastebin.com/AVt1zVV8>) can be printed as follows
 //!
 //! ```
 //! use popflash_parser::*;
 //! # async fn test() {
-//! let match_data  = match_from_id("1281644").await;
+//! let match_data  = Match::from_id(1281644).await.unwrap();
 //! println!("Match::Match output");
 //! println!("{:#?}", match_data);
 //!
