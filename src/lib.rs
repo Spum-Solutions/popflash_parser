@@ -43,7 +43,7 @@ const EXAMPLE_MATCH_URL: &str = "https://popflash.site/match/1281644";
 #[doc(hidden)]
 const EXAMPLE_MATCH_ID: usize = 1281644;
 
-use r#match::Match;
+
 
 mod player_stats;
 mod team;
@@ -57,5 +57,5 @@ pub mod r#match;
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    
 }

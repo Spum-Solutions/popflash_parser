@@ -1,10 +1,7 @@
 use super::team::Team;
 use chrono::prelude::*;
 use select::document::Document;
-
-use select::predicate::Text;
-use select::predicate::{Attr, Class, Name, Predicate};
-
+use select::predicate::Name;
 use serde_derive::{Deserialize, Serialize};
 
 // Matches have unique match IDs and therefore can implement Eq
@@ -56,11 +53,11 @@ impl Match {
         let mut date = document.find(Name("h2")).into_iter().next().unwrap().text();
         let mut time = date.clone();
 
-        date.replace_range((0..date.find("ON ").unwrap() + 3), "");
-        date.replace_range((date.find(' ').unwrap()..), "");
+        date.replace_range(0..date.find("ON ").unwrap() + 3, "");
+        date.replace_range(date.find(' ').unwrap().., "");
 
-        time.replace_range((0..time.find("AT ").unwrap() + 3), "");
-        time.replace_range((time.find(' ').unwrap()..), "");
+        time.replace_range(0..time.find("AT ").unwrap() + 3, "");
+        time.replace_range(time.find(' ').unwrap().., "");
 
         let date_iter = date.split('/');
         let mut time_iter = time.split(':');
@@ -95,9 +92,8 @@ impl Match {
             .position(|line| line.contains("score score-2"))
             .unwrap()
             + 6;
-        let map_name = new_lines[map_name].clone();
 
-        map_name
+        new_lines[map_name].clone()
     }
 
     fn get_teams(document: &Document) -> Vec<Team> {
@@ -131,7 +127,7 @@ mod tests {
         use super::*;
         #[tokio::test]
         async fn valid_popflash_id_1() {
-            let body = crate::utility::get_body_from_id(EXAMPLE_GAME_ID)
+            let _body = crate::utility::get_body_from_id(EXAMPLE_GAME_ID)
                 .await
                 .unwrap();
             todo!()
