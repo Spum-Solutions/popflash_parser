@@ -70,30 +70,4 @@ pub async fn match_from_url(url: &str) -> Result<Match, Box<dyn std::error::Erro
 #[cfg(test)]
 mod tests {
     use super::*;
-    mod match_from_id {
-        use super::*;
-        #[tokio::test]
-        // valid test as this is to check that popflash hasn't changed it's output
-        async fn valid_popflash_id_1() {
-            assert!(match_from_id(EXAMPLE_MATCH_ID).await.is_ok());
-        }
-
-        #[test]
-        fn invalid_popflash_id_1() {
-            todo!()
-        }
-    }
-
-    mod match_from_url {
-        use super::*;
-        #[tokio::test]
-        async fn valid_popflash_url_1() {
-            assert!(match_from_url(EXAMPLE_MATCH_URL).await.is_ok())
-        }
-
-        #[test]
-        fn invalid_popflash_url_1() {
-            todo!()
-        }
-    }
 }
