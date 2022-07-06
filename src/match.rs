@@ -24,7 +24,7 @@ impl PartialEq for Match {
 }
 
 impl Match {
-    pub fn new(document: &Document) -> Self {
+    fn new(document: &Document) -> Self {
         Self {
             id: Self::get_match_id(document),
             teams: Match::get_teams(document),
@@ -44,6 +44,7 @@ impl Match {
         let body = crate::utility::get_body_from_url(url).await.unwrap();
         Ok(Match::new(&body))
     }
+
     fn popflash_time_to_utc(
         document: &Document,
     ) -> Result<DateTime<Utc>, Box<dyn std::error::Error>> {
@@ -96,7 +97,7 @@ impl Match {
         new_lines[map_name].clone()
     }
 
-    fn get_teams(document: &Document) -> Vec<Team> {
+    pub fn get_teams(document: &Document) -> Vec<Team> {
         let mut teams: Vec<Team> = vec![];
         let team1 = Team::new(0, document);
         let team2 = Team::new(1, document);
@@ -124,35 +125,37 @@ mod tests {
     const EXAMPLE_GAME_URL: &str = "https://popflash.site/match/1281644";
     const EXAMPLE_GAME_ID: usize = 1281644;
     mod from_id {
+        use select::document::Document;
+
+        use crate::Match;
+
         use super::*;
         #[tokio::test]
         async fn valid_popflash_id_1() {
-            let match_data = crate::Match::from_id(EXAMPLE_GAME_ID).await.unwrap();
-            println!("{:#?}", match_data);
             assert!(crate::Match::from_id(EXAMPLE_GAME_ID).await.is_ok())
         }
 
-        #[test]
-        fn invalid_popflash_id_1() {
-            todo!()
-        }
+        //#[test]
+        //fn invalid_popflash_id_1() {
+        //    todo!()
+        //}
     }
 
     mod from_url {
-        #[test]
-        fn valid_popflash_url_1() {
-            todo!()
-        }
+        //#[test]
+        //fn valid_popflash_url_1() {
+        //    todo!()
+        //}
 
-        #[test]
-        fn invalid_popflash_url_1() {
-            todo!()
-        }
+        //#[test]
+        //fn invalid_popflash_url_1() {
+        //    todo!()
+        //}
     }
 
     mod popflash_time_to_utc {
-        fn test_valid_1() {
-            todo!()
-        }
+        //fn test_valid_1() {
+        //    todo!()
+        //}
     }
 }
