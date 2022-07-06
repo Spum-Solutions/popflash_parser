@@ -4,7 +4,7 @@
 //!
 //! Methods are used to get the match data from a url or match ID, they are functionally equivalent to the end user, only differing in what is used to call the function (a url, or match ID)
 //!
-//! ``` rust
+//! ```
 //! # use popflash_parser::*;
 //! ##[tokio::test]
 //! # async fn test() {

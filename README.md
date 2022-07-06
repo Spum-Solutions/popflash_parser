@@ -4,22 +4,18 @@
 
 Methods are used to get the match data from a url or match ID, they are functionally equivalent to the end user, only differing in what is used to call the function (a url, or match ID)
 
-``` rust
-## use popflash_parser::*;
-###[tokio::test]
-## async fn test() {
+```rust
+##[tokio::test]
 assert_eq!(
     Match::from_url("https://popflash.site/match/1281644").await.unwrap(),
     Match::from_id("1281644").await.unwrap()
 );
-## }
-```rust
+```
 
 A `Match` struct (see example output here: <https://pastebin.com/AVt1zVV8>) can be printed as follows
 
-```
+```rust
 use popflash_parser::*;
-## async fn test() {
 let match_data  = Match::from_id(1281644).await.unwrap();
 println!("Match::Match output");
 println!("{:#?}", match_data);
@@ -33,5 +29,4 @@ println!("{}", json_string);
 let json_object = serde_json::Value::from(json_string);
 println!("serde_json::Value output");
 println!("{}", json_object);
-## }
-```rust
+```
