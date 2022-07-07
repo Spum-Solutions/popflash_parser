@@ -24,25 +24,25 @@ impl PartialEq for Match {
 }
 
 impl Match {
-    fn new(document: &Document) -> Self {
-        Self {
+    fn new(document: &Document) -> Result<Self, Box<dyn std::error::Error>> {
+        Ok(Self {
             id: Self::get_match_id(document),
             teams: Match::get_teams(document),
-            datetime: Self::popflash_time_to_utc(document).unwrap(),
+            datetime: Self::popflash_time_to_utc(document)?,
             map: Self::get_map_name(document),
-        }
+        })
     }
 
     /// Retrieve match information from a match id such as `1281644`
     pub async fn from_id(match_id: usize) -> Result<Match, Box<dyn std::error::Error>> {
-        let body = crate::utility::get_body_from_id(match_id).await.unwrap();
-        Ok(Match::new(&body))
+        let body = crate::utility::get_body_from_id(match_id).await?;
+        Match::new(&body)
     }
 
     /// Same as `match_from_id` instead taking a full url as a `&str`
     pub async fn from_url(url: &str) -> Result<Match, Box<dyn std::error::Error>> {
-        let body = crate::utility::get_body_from_url(url).await.unwrap();
-        Ok(Match::new(&body))
+        let body = crate::utility::get_body_from_url(url).await?;
+        Match::new(&body)
     }
 
     fn popflash_time_to_utc(
@@ -67,14 +67,14 @@ impl Match {
 
         let datetime = Utc
             .ymd(
-                dates[2].parse::<i32>().unwrap(),
-                dates[0].parse::<u32>().unwrap(),
-                dates[1].parse::<u32>().unwrap(),
+                dates[2].parse::<i32>()?,
+                dates[0].parse::<u32>()?,
+                dates[1].parse::<u32>()?,
             )
             .and_hms(
-                time_iter.next().unwrap().parse::<u32>().unwrap(),
-                time_iter.next().unwrap().parse::<u32>().unwrap(),
-                time_iter.next().unwrap().parse::<u32>().unwrap(),
+                time_iter.next().unwrap().parse::<u32>()?,
+                time_iter.next().unwrap().parse::<u32>()?,
+                time_iter.next().unwrap().parse::<u32>()?,
             );
 
         Ok(datetime)
